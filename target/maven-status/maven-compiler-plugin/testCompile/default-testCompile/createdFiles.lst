@@ -1,0 +1,12 @@
+ApiClient.class
+ProductRequest.class
+com\qa\bdd\CucumberTestRunner.class
+CRUDTest.class
+AdvancedApiTest.class
+com\qa\bdd\ObjectsApiSteps.class
+PojoTest.class
+Config.class
+ProductResponse.class
+SpecBuilder.class
+FrameworkTest.class
+ProductData.class
