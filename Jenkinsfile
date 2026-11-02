@@ -46,21 +46,3 @@ pipeline {
         }
     }
 }
- 
-    post {
-        always {
-            archiveArtifacts(
-                artifacts: 'target/surefire-reports/*,target/cucumber-report.html',
-                allowEmptyArchive: true
-            )
-        }
- 
-        success {
-            echo 'API automation tests passed'
-        }
- 
-        failure {
-            echo 'API automation tests failed'
-        }
-    }
-}
