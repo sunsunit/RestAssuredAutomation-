@@ -2,16 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-29T22:32:28 IST" name="Surefire suite" finished-at="2026-10-29T22:32:30 IST" duration-ms="2697">
+  <suite started-at="2026-11-02T22:20:37 IST" name="BDD Test Suite" finished-at="2026-11-02T22:20:39 IST" duration-ms="2702">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.bdd.CucumberTestRunner@223191a6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-10-29T22:32:28 IST" name="Surefire test" finished-at="2026-10-29T22:32:30 IST" duration-ms="2697">
-      <class name="FrameworkTest">
-        <test-method signature="verifyObjectsEndpoint()[pri:0, instance:FrameworkTest@2141a12]" started-at="2026-10-29T22:32:28 IST" name="verifyObjectsEndpoint" finished-at="2026-10-29T22:32:30 IST" duration-ms="2659" status="PASS">
+    <test started-at="2026-11-02T22:20:37 IST" name="Rest Assured Cucumber Tests" finished-at="2026-11-02T22:20:39 IST" duration-ms="2702">
+      <class name="com.qa.bdd.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qa.bdd.CucumberTestRunner@223191a6]" started-at="2026-11-02T22:20:37 IST" name="setUpClass" finished-at="2026-11-02T22:20:37 IST" duration-ms="449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@739265f1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyObjectsEndpoint -->
-      </class> <!-- FrameworkTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.bdd.CucumberTestRunner@223191a6]" started-at="2026-11-02T22:20:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-02T22:20:39 IST" duration-ms="2205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Retrieve the list of objects"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Objects API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.bdd.CucumberTestRunner@223191a6]" started-at="2026-11-02T22:20:39 IST" name="tearDownClass" finished-at="2026-11-02T22:20:39 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.bdd.CucumberTestRunner -->
+    </test> <!-- Rest Assured Cucumber Tests -->
+  </suite> <!-- BDD Test Suite -->
 </testng-results>

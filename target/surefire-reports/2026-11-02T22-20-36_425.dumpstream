@@ -1,4 +1,4 @@
-# Created at 2026-10-29T22:22:02.706
+# Created at 2026-11-02T22:20:36.585
 Boot Manifest-JAR contains absolute paths in classpath 'E:\Tr\One_drive_1\OneDrive\Desktop\JAVAAPI\RestAssuredAutomation\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
